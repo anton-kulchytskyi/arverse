@@ -13,6 +13,9 @@
 .margin-b-10 {
     margin-bottom: 10px;
 }
+.margin-l-r-10 {
+    margin: 0 10px 0 10px;
+}
 .margin-20 {
     margin: 20px;
 }
@@ -58,6 +61,6 @@
 .padding-b-20 {
     padding-bottom: 20px;
 }
-.margin-100 {
-    margin-top: 100px;
+.margin-t-200 {
+    margin-top: 200px;
 }

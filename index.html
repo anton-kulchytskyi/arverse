@@ -7,88 +7,80 @@
 		<link rel="stylesheet" href="media-queris.css">
 		<link rel="stylesheet" href="margin.css">
 		<link rel="stylesheet" href="flex.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/38480bbb0b.js" crossorigin="anonymous"></script>
 		<title>Arverse - homepage</title>
 	</head>
 	<body>
 		<div id="wrapper">
 			<header class="margin-b-20">
-				<nav class="padding-20">
+				<nav class="row justify-between padding-20">
 					<img class="logo" src="logo.png" alt="logo">
+					<button>Connect a wallet</button>
 				</nav>
 			</header>
-			<main class="margin-t-20">
-				<div class="column justify-between margin-t-20">
-					<div class="row justify-between relative margin-t-20">
-						<div class="col-1">
-							<a href="https://www.arvrse.co/" target="_blank">
-								<img src="row1.jpg" alt="">
-							</a>
+			<main class="margin-t-200 row justify-between">
+
+				<div class="col-1">
+					<a href="javascript:void(0)" onclick="openModalWindow()">
+						<img src="https://cdn.icon-icons.com/icons2/272/PNG/256/calendar_30000.png" alt="">
+						<p class="text">Presale</p>
+					</a>
+				</div>
+				<div class="col-2 column justify-between">
+					<div class="row justify-between">
+						<div>
+							<a href="javascript:void(0)" onclick="openModalWindow()">
+								<img src="https://cdn.icon-icons.com/icons2/64/PNG/96/games_gamepad_juego_12680.png" alt="">
+								<p class="text">Game</p>
+							</a>							
 						</div>
-						<div class="col-2 row justify-between absolute">
-							<div class="row justify-between margin-r-10 col-2-1">
-								<div class="col-2-2">
-									<a href="https://www.arvrse.co/">
-										<img src="row1-1.png" alt="">
-									</a>									
-								</div>
-								<div class="col-2-2">
-									<a href="https://www.arvrse.co/" target="_blank">
-										<img src="row1-2.png" alt="">
-									</a>
-								</div>
-							</div>
-							<div class="row justify-between margin-r-10 col-2-1">
-								<div class="col-2-2">
-									<a href="https://www.arvrse.co/">
-										<img src="row1-3.png" alt="">
-									</a>
-								</div>
-								<div class="col-2-2">
-									<a href="https://www.arvrse.co/">
-										<img src="row1-1.png" alt="">
-									</a>
-								</div>
-							</div>
-							<div class="row justify-between">
-								<div class="col-2-2">
-									<a href="https://www.arvrse.co/">
-										<img src="row1-2.png" alt="">
-									</a>
-								</div class="col-2-2">
-								<div>
-									<a href="https://www.arvrse.co/">
-										<img src="row1-1.png" alt="">
-									</a>
-								</div>
-							</div>
+						<div>
+							<a href="javascript:void(0)" onclick="openModalWindow()">
+								<img src="https://cdn.icon-icons.com/icons2/53/PNG/96/farmer_10763.png" alt="">
+								<p class="text">Farming</p>
+							</a>							
+						</div>
+						<div>
+							<a href="javascript:void(0)" onclick="openModalWindow()">
+								<img src="https://icon-icons.com/icons2/2355/PNG/96/pay_cash_payment_money_dollar_bill_icon_143267.png" alt="">
+								<p class="text">Loan</p>
+							</a>
 						</div>
 					</div>
-					<div class="row justify-between margin-t-20">
-						<div class="col-1">
-							<a href="https://www.arvrse.co/">
-								<img src="row2.png" alt="">
+					<div class="row justify-between">
+						<div>
+							<a href="javascript:void(0)" onclick="openModalWindow()">
+								<img src="https://cdn.icon-icons.com/icons2/9/PNG/96/product_document_file_1512.png" alt="">
+								<p class="text">Document</p>
 							</a>
 						</div>
-						<div class="col-2 row justify-between">
-							<div class="margin-r-10">
-								<a href="https://www.arvrse.co/">
-									<img src="row2-1.jpg" alt="">
-								</a>
-							</div>
-							<div class="margin-r-10">
-								<a href="https://www.arvrse.co/">
-									<img src="row2-2.jpg" alt="">
-								</a>
-							</div>
-							<div>
-								<a href="https://www.arvrse.co/">
-									<img src="row2-3.jpg" alt="">
-								</a>
-							</div>
+						<div>
+							<a href="javascript:void(0)" onclick="openModalWindow()">
+								<img src="https://icon-icons.com/icons2/2063/PNG/96/store_shop_building_ecommerce_icon_124608.png" alt="">
+								<p class="text">Shop</p>
+							</a>
+						</div>
+						<div>
+							<a href="javascript:void(0)" onclick="openModalWindow()">
+								<img src="https://icon-icons.com/icons2/403/PNG/96/users_40493.png" alt="">
+								<p class="text">Governance</p>
+							</a>
 						</div>
 					</div>
 				</div>
+
+				<div id="myModal" class="modal">
+					<div class="modal-content">
+					  	<span class="close">&times;</span>
+					  	
+					  	<div class="modal-body">
+							<p>Coming soon...</p>
+					  	</div>
+					</div>				  
+				</div>
+
 			</main>
 			<footer class="flex justify-between margin-t-20">
 				<div class="padding-10">
@@ -107,7 +99,7 @@
 					<a href="https://www.linkedin.com/company/arvrseco/">
 						<i class="fab fa-youtube padding-10"></i>
 					</a>
-					<a href="https://www.linkedin.com/company/arvrseco/">
+					<a href="mailto:contact@arvrse.co">
 						<i class="far fa-envelope padding-10"></i>
 					</a>
 				</div>
