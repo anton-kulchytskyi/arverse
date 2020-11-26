@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background-image: url(https://cdn.pixabay.com/photo/2016/06/29/19/23/background-1487545_1280.jpg);
+	color: #fff;
+}
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+img {
+	width: 100%;
+}
+img:hover {
+	border: 2px solid #0026ff;
+}
+.logo {
+	width: 20%;
+	height: 20%;
+}
+.col-1 {
+	width: 25%;
+}
+.col-2 {
+	width: 70%;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+footer {
+	background-color: #00000086;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.5s;
+}
+i:hover {
+	font-size: x-large;
+}
