@@ -14,8 +14,8 @@
     }
     footer {
         width: 90%;
-        position: fixed;
-        bottom: 0;
+        /*position: fixed;
+        bottom: 0;*/
     }  
     i {
         padding: 5px;
