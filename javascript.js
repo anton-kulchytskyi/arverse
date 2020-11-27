@@ -13,16 +13,31 @@ var close = document.getElementsByClassName('close')[0];
 // }
 // это обработчик события, который в нутри этой функции выполнят ту функцию 
 //которая закрывает окно модальное
-close.addEventListener('click', function() {
-  closeModalWindow();
-})
+// close.addEventListener('click', function() {
+//   closeModalWindow();
+// })
 
 //это функция, которая открывает окно
 function openModalWindow() {
   modal.style.display = "block";
 }
 
-//это функция, которая закрывает окно
-function closeModalWindow() {
+close.onclick = function () {
   modal.style.display = "none";
+}
+
+//это функция, которая закрывает окно
+// function closeModalWindow() {
+//   modal.style.display = "none";
+// }
+
+var wallet = document.getElementById('walletModal');
+var close1 = document.getElementsByClassName('close-1')[0];
+
+function openWalletModal() {
+  wallet.style.display = "block";
+}
+
+close1.onclick = function () {
+  wallet.style.display = "none";
 }

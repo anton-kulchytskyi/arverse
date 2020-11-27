@@ -1,23 +1,47 @@
 @media screen and (max-width: 600px) {
-    .row-1, .row-2 {
-        flex-direction: column;
+    body {
+        overflow: scroll;
+    }
+    .myButton {
+        padding: 10px 15px;
     }
     main {
         flex-direction: column;
         margin-top: 0;
     }
+    /*.col-1 {
+        width: 100%;
+    }
+    .col-2.column {
+        flex-direction: row;
+        width: 100%;
+    }*/
     .col-2 {
         width: 25%;
+    }
+    .row-1, .row-2 {
+        flex-direction: column;
+        /*width: 45%;*/
     }
     .small {
         transform: scale(0.7);
     }
-    footer {
-        width: 90%;
-        /*position: fixed;
-        bottom: 0;*/
-    }  
-    i {
+    .text {
+        margin: 0;
+    }
+    /*i {
         padding: 5px;
-    }  
+    }*/  
+    .modal-content {
+        
+        width: 75%;
+    }
+    .wallet-content {
+        
+        width: 80%;
+        
+    }
+    .wallet-body button {
+        width: 100%;
+    }
 }

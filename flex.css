@@ -9,6 +9,9 @@
     align-items: center;
     justify-content: center;
 }
+.wrap {
+    flex-wrap: wrap;
+}
 .align-start {
     align-items: flex-start;
 }
