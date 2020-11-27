@@ -42,12 +42,16 @@ main {
 }
 footer {
 	margin-top: 20px;
+	padding: 10px;
 	background-color: #00000086;	
 }
 a {
 	text-decoration: none;
 	color: #fff;
 	transition: all 0.5s;
+}
+i {
+	padding: 10px;
 }
 i:hover {
 	font-size: x-large;
